@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="JR Store maskable logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#11141e" />
+      <stop offset="100%" stop-color="#0d565c" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="url(#bg)" />
+  <rect x="36" y="36" width="440" height="440" fill="none" stroke="#f6c553" stroke-width="16" />
+  <text x="256" y="262" text-anchor="middle" font-family="'Arial Black', Arial, sans-serif" font-size="188" fill="#fff5e1">JR</text>
+  <text x="256" y="370" text-anchor="middle" font-family="'Segoe UI', Arial, sans-serif" font-size="70" font-weight="700" letter-spacing="7" fill="#f6c553">STORE</text>
+</svg>

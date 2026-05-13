@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="description" content="JR The Kin Store: street music, trap y más. Compra 2 productos exclusivos con estilo urbano." />
+	<meta name="theme-color" content="#11141e" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+	<meta name="apple-mobile-web-app-title" content="JR Store" />
+	<title>JR The Kin Store | Street Shop</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Urbanist:wght@400;500;700;900&display=swap" rel="stylesheet" />
+	<link rel="manifest" href="manifest.webmanifest" />
+	<link rel="icon" type="image/svg+xml" href="assets/icons/icon-192.svg" sizes="192x192" />
+	<link rel="icon" type="image/svg+xml" href="assets/icons/icon-512.svg" sizes="512x512" />
+	<link rel="apple-touch-icon" href="assets/icons/apple-touch-icon.svg" />
+	<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+	<div class="noise"></div>
+
+	<header class="site-header" id="top">
+		<nav class="nav container">
+			<a href="#top" class="logo" id="homeLogo" aria-label="Volver al inicio">JR The Kin Store</a>
+
+			<button class="menu-toggle" id="menuToggle" aria-label="Abrir menú" aria-expanded="false">
+				<span></span>
+				<span></span>
+				<span></span>
+			</button>
+
+			<ul class="nav-links" id="navLinks">
+				<li><a href="#productos">Productos</a></li>
+				<li><a href="#vibra">Vibra</a></li>
+				<li><a href="#reviews">Reviews</a></li>
+				<li><a href="#faq">FAQ</a></li>
+			</ul>
+
+			<a
+				class="cart-btn soundcloud-btn"
+				href="https://soundcloud.com/jrjeremyrey"
+				target="_blank"
+				rel="noopener noreferrer"
+				aria-label="Ir a SoundCloud de JR"
+			>
+				<svg viewBox="0 0 64 40" aria-hidden="true" focusable="false">
+					<path d="M25 32h28a9 9 0 0 0 0-18 12 12 0 0 0-23-4A8 8 0 0 0 25 32z" fill="currentColor"></path>
+					<rect x="2" y="18" width="3" height="14" rx="1.5" fill="currentColor"></rect>
+					<rect x="7" y="15" width="3" height="17" rx="1.5" fill="currentColor"></rect>
+					<rect x="12" y="12" width="3" height="20" rx="1.5" fill="currentColor"></rect>
+					<rect x="17" y="10" width="3" height="22" rx="1.5" fill="currentColor"></rect>
+					<rect x="22" y="12" width="3" height="20" rx="1.5" fill="currentColor"></rect>
+				</svg>
+				<span>SoundCloud</span>
+			</a>
+		</nav>
+	</header>
+
+	<main>
+		<section class="hero">
+			<div class="hero-bg-shape hero-bg-shape-1"></div>
+			<div class="hero-bg-shape hero-bg-shape-2"></div>
+
+			<div class="container hero-content">
+				<p class="kicker">Street Sound Essentials</p>
+				<h1>MÚSICA &amp; ARTE <span>EN TU PROPIO ESTILO</span></h1>
+				<p class="hero-copy">
+					Setea tu flow con equipo y estilo. Dos piezas, cero confianza: sonido y actitud para romper la calle.
+				</p>
+				<div class="hero-actions">
+					<a class="btn btn-primary" href="#productos">Comprar ahora</a>
+					<a class="btn btn-outline" href="#vibra">Ver ambiente</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="products section" id="productos">
+			<div class="container">
+				<div class="section-head">
+					<p class="kicker">Drop Limitado</p>
+					<h2>2 Productos. Puro impacto.</h2>
+				</div>
+
+				<div class="product-grid">
+					<article class="product-card">
+						<div class="product-badge">Top Seller</div>
+						<h3>Poster Street Trap Edition</h3>
+						<p>Poster urbano en alta calidad para decorar tu estudio, cuarto o setup musical.</p>
+						<ul>
+							<li>Impresion premium en color</li>
+							<li>Tamano ideal para pared</li>
+							<li>Diseno street exclusivo</li>
+						</ul>
+						<div class="product-footer">
+							<strong>$1.0099</strong>
+							<button class="btn btn-small view-product" data-product="Poster Street Trap Edition">Ver</button>
+						</div>
+					</article>
+
+					<article class="product-card">
+						<div class="product-badge alt">Nuevo</div>
+						<h3>Oversize Hoodie 808 Edition</h3>
+						<p>Hoodie premium con corte oversize, textura suave y estampado 808 reflectivo.</p>
+						<ul>
+							<li>Algodón pesado premium</li>
+							<li>Diseño unisex</li>
+							<li>Estilo trap nocturno</li>
+						</ul>
+						<div class="product-footer">
+							<strong>$65</strong>
+							<button class="btn btn-small view-product" data-product="Oversize Hoodie 808 Edition">Ver</button>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section class="vibe section" id="vibra">
+			<div class="container vibe-grid">
+				<div>
+					<p class="kicker">La Vibra</p>
+					<h2>No vendemos ropa y audio. Vendemos presencia.</h2>
+					<p>
+						Inspirado en callejones de neón, sessions nocturnas y ritmos pesados. JR Store conecta estética y rendimiento para artistas, creadores y fans del movimiento urbano.
+					</p>
+				</div>
+				<div class="vibe-points">
+					<article>
+						<h3>Entrega Rápida</h3>
+						<p>Despacho en 24-48h en zonas principales.</p>
+					</article>
+					<article>
+						<h3>Pago Online</h3>
+						<p>Compra con seguridad en cada orden.</p>
+					</article>
+					<article>
+						<h3>Garantía Real</h3>
+						<p>Soporte directo y cambios en caso de defecto.</p>
+					</article>
+				</div>
+			</div>
+		</section>
+
+		<section class="reviews section" id="reviews">
+			<div class="container">
+				<div class="section-head">
+					<p class="kicker">Lo que dicen</p>
+					<h2>Reviews de la calle</h2>
+				</div>
+
+				<div class="review-grid">
+					<blockquote>
+						"El poster con mi combi pega durísimo. Se sienten premium de verdad."
+						<cite>- El Dami</cite>
+					</blockquote>
+					<blockquote>
+						"La hoodie 808 es mi uniforme para grabar. Cómoda y brutal."
+						<cite>- Nathy K</cite>
+					</blockquote>
+					<blockquote>
+						"Llegó rápido y el empaque está a otro nivel. Recomendado."
+						<cite>- Lucho Beats</cite>
+					</blockquote>
+				</div>
+			</div>
+		</section>
+
+		<section class="faq section" id="faq">
+			<div class="container">
+				<div class="section-head">
+					<p class="kicker">Preguntas Frecuentes</p>
+					<h2>Todo claro antes de comprar</h2>
+				</div>
+
+				<div class="faq-list" id="faqList">
+					<article class="faq-item">
+						<button class="faq-question" aria-expanded="false">¿Hacen envíos nacionales?</button>
+						<div class="faq-answer">
+							<p>Sí, enviamos a todo el país con número de seguimiento.</p>
+						</div>
+					</article>
+					<article class="faq-item">
+						<button class="faq-question" aria-expanded="false">¿Puedo pagar contra entrega?</button>
+						<div class="faq-answer">
+							<p>Depende de tu zona. Escríbenos en contacto y lo validamos.</p>
+						</div>
+					</article>
+					<article class="faq-item">
+						<button class="faq-question" aria-expanded="false">¿Tienen cambios de talla?</button>
+						<div class="faq-answer">
+							<p>Sí, tienes 7 días para solicitar cambio con la prenda en perfecto estado.</p>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<footer class="site-footer">
+		<div class="container footer-content">
+			<p>JR STORE | Street Music Culture</p>
+			<p>&copy; <span id="year"></span> Todos los derechos reservados.</p>
+		</div>
+	</footer>
+
+	<div class="product-modal" id="productModal" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="productModalTitle">
+		<div class="product-modal-backdrop" id="productModalBackdrop"></div>
+		<div class="product-modal-card" role="document">
+			<button class="product-modal-close" id="productModalClose" aria-label="Cerrar modal">x</button>
+			<p class="kicker" id="productModalKicker">Producto</p>
+			<h3 id="productModalTitle">Producto</h3>
+			<p class="product-modal-price" id="productModalPrice"></p>
+			<p class="product-modal-copy" id="productModalCopy"></p>
+			<ul class="product-modal-features" id="productModalFeatures"></ul>
+			<a class="btn btn-primary product-modal-cta" href="https://athmovil.com/" target="_blank" rel="noopener noreferrer">ATH Móvil</a>
+		</div>
+	</div>
+
+	<script src="js/script.js"></script>
+</body>
+</html>
